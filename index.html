@@ -4,59 +4,298 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clínica PodoSaúde | Podologia em Cambé - PR</title>
-  <meta name="description" content="Clínica PodoSaúde em Cambé - PR. Atendimento especializado em podologia, cuidados com unhas, calosidades, micose, órtese/fibra e saúde dos pés." />
+  <meta name="description" content="Clínica PodoSaúde em Cambé - PR. 10 anos de experiência em podologia: unha encravada e inflamadas, micose, calos e calosidades, órtese/fibra, pé diabético." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo-podosaude.png" type="image/png" />
 </head>
 <body>
+
+  <!-- CABEÇALHO -->
   <header class="topo">
     <div class="container nav">
       <img src="logo-podosaude.png" alt="Logo Clínica PodoSaúde" class="logo" />
-      <a class="botao pequeno" href="https://wa.me/5543999999999" target="_blank">Agendar pelo WhatsApp</a>
+
+      <nav class="nav-links" id="menuNav">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <div class="nav-acoes">
+        <a class="botao pequeno" href="https://wa.me/c/5543999274561" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+      </div>
     </div>
   </header>
 
   <main>
+
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <span class="selo">Podologia em Cambé - PR</span>
+          <span class="selo">📍 Podologia em Cambé - PR · 10 anos de experiência</span>
           <h1>Cuidado profissional para a saúde dos seus pés</h1>
           <p>
             Atendimento acolhedor para prevenção, conforto e tratamento dos pés,
-            com orientação profissional e acompanhamento individualizado.
+            com orientação profissional, técnicas atualizadas e acompanhamento
+            individualizado.
           </p>
           <div class="acoes">
-            <a class="botao" href="https://wa.me/5543999999999" target="_blank">Agendar avaliação</a>
+            <a class="botao" href="https://wa.me/c/5543999274561" target="_blank" rel="noopener">📅 Agendar avaliação</a>
             <a class="botao secundario" href="#servicos">Ver serviços</a>
           </div>
         </div>
         <div class="card-destaque">
           <h2>Clínica PodoSaúde</h2>
-          <p>Cuidados com unhas, calosidades, micose, órtese/fibra e bem-estar dos pés.</p>
+          <p>Cuidados com unhas Encravadas ou Inflamadas, calos e calosidades, micose, órtese/fibra e bem-estar dos pés.</p>
           <ul>
-            <li>Atendimento com hora marcada</li>
-            <li>Ambiente limpo e acolhedor</li>
-            <li>Orientação para cuidados em casa</li>
+            <li>✅ Atendimento com hora marcada</li>
+            <li>✅ Ambiente limpo e acolhedor</li>
+            <li>✅ Orientação para cuidados em casa</li>
           </ul>
         </div>
       </div>
     </section>
 
+    <!-- SELOS DE CONFIANÇA -->
+    <section class="confianca">
+      <div class="container confianca">
+        <div class="item"><span class="icone">🦶</span> 10 anos de experiência</div>
+        <div class="item"><span class="icone">📅</span> Atendimento com hora marcada</div>
+        <div class="item"><span class="icone">🧼</span> Ambiente higienizado</div>
+        <div class="item"><span class="icone">🩺</span> Atenção ao pé diabético</div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
     <section id="servicos" class="secao">
       <div class="container">
-        <h2>Serviços</h2>
+        <div class="cabecalho-secao">
+          <h2>Serviços</h2>
+          <p class="subtitulo">Tratamentos especializados para cuidar da saúde e do bem-estar dos seus pés, com técnica e atenção individual.</p>
+        </div>
         <div class="cards">
-          <article><h3>Unha encravada</h3><p>Avaliação e cuidado técnico para reduzir desconforto e orientar a prevenção.</p></article>
-          <article><h3>Micose de unha</h3><p>Acompanhamento podológico e orientação para cuidados durante o tratamento.</p></article>
-          <article><h3>Calosidades</h3><p>Cuidados para aliviar incômodos causados por calos e ressecamento.</p></article>
-          <article><h3>Órtese / Fibra</h3><p>Auxílio na correção do crescimento da unha com acompanhamento periódico.</p></article>
-          <article><h3>Corte e limpeza</h3><p>Atendimento preventivo para manter os pés saudáveis e confortáveis.</p></article>
-          <article><h3>Pé diabético</h3><p>Atenção especial e orientação preventiva para pacientes que exigem mais cuidado.</p></article>
+          <article>
+            <div class="icone">🦶</div>
+            <h3>Unha encravada</h3>
+            <p>Avaliação e cuidado técnico para reduzir desconforto e orientar a prevenção de novas crises.</p>
+          </article>
+          <article>
+            <div class="icone">🧫</div>
+            <h3>Micose de unha</h3>
+            <p>Acompanhamento podológico e orientação para cuidados durante todo o tratamento.</p>
+          </article>
+          <article>
+            <div class="icone">🪶</div>
+            <h3>Calosidades</h3>
+            <p>Cuidados para aliviar incômodos causados por calos, rachaduras e ressecamento.</p>
+          </article>
+          <article>
+            <div class="icone">🛠️</div>
+            <h3>Órtese / Fibra</h3>
+            <p>Auxílio na correção do crescimento da unha com acompanhamento periódico e personalizado.</p>
+          </article>
+          <article>
+            <div class="icone">✂️</div>
+            <h3>Corte e limpeza</h3>
+            <p>Atendimento preventivo para manter os pés saudáveis, confortáveis e bem cuidados.</p>
+          </article>
+          <article>
+            <div class="icone">🩺</div>
+            <h3>Pé diabético</h3>
+            <p>Atenção especial, prevenção de lesões e orientação contínua para pacientes que exigem mais cuidado.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="secao clara">
+    <!-- SOBRE -->
+    <section id="sobre" class="secao clara">
+      <div class="container sobre-grid">
+        <div class="foto-sobre">
+          <img src="logo-podosaude.png" alt="Logo Clínica PodoSaúde" />
+        </div>
+        <div>
+          <h2>Sobre a Clínica PodoSaúde</h2>
+          <p>
+            Há 10 anos cuidando da saúde dos pés em Cambé e região, a Clínica
+            PodoSaúde oferece atendimento podológico completo, combinando técnica,
+            higiene e acolhimento em cada consulta, com total segurança e conforto.
+          </p>
+          <p>
+            Nosso objetivo é prevenir, tratar e orientar — para que você tenha
+            mais qualidade de vida a cada passo.
+          </p>
+          <div class="numeros">
+            <div class="numero">
+              <strong>10</strong>
+              <span>anos de experiência</span>
+            </div>
+            <div class="numero">
+              <strong>6</strong>
+              <span>especialidades atendidas</span>
+            </div>
+            <div class="numero">
+              <strong>100%</strong>
+              <span>atendimento personalizado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="secao">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2>Como funciona o atendimento</h2>
+          <p class="subtitulo">Simples, rápido e sem complicação — do agendamento ao cuidado final.</p>
+        </div>
+        <div class="passos">
+          <div class="passo">
+            <div class="num">1</div>
+            <h3>Agende pelo WhatsApp</h3>
+            <p>Escolha o melhor dia e horário para sua avaliação na clínica.</p>
+          </div>
+          <div class="passo">
+            <div class="num">2</div>
+            <h3>Avaliação completa</h3>
+            <p>Avaliamos o seu caso com calma e explicamos o que será feito em cada etapa.</p>
+          </div>
+          <div class="passo">
+            <div class="num">3</div>
+            <h3>Cuidado e orientação</h3>
+            <p>Você recebe o tratamento e orientações práticas para manter os resultados em casa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="secao clara">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2>O que dizem nossos pacientes</h2>
+          <p class="subtitulo">A confiança de quem já cuidou da saúde dos pés com a gente.</p>
+        </div>
+        <div class="depoimentos">
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>"Atendimento super atencioso, me senti muito bem cuidada. Recomendo demais!"</p>
+            <div class="autor">
+              <div class="avatar">M</div>
+              <div><strong>Maria S.</strong><span>Paciente</span></div>
+            </div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>"Profissional muito cuidadosa e ambiente bem limpinho. Resolveu meu problema de unha encravada."</p>
+            <div class="autor">
+              <div class="avatar">J</div>
+              <div><strong>João P.</strong><span>Paciente</span></div>
+            </div>
+          </div>
+          <div class="depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p>"Ambiente limpinho, organizado e atendimento muito atencioso do início ao fim."</p>
+            <div class="autor">
+              <div class="avatar">A</div>
+              <div><strong>Ana L.</strong><span>Paciente</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO / MAPA -->
+    <section id="localizacao" class="secao">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2>Onde estamos</h2>
+          <p class="subtitulo">Atendimento em clínica em Cambé - PR.</p>
+        </div>
+        <div class="localizacao-grid">
+          <div class="info-local">
+            <div class="info-item">
+              <div class="icone">📍</div>
+              <div>
+                <h3>Endereço</h3>
+                <p>Rua Espanha, 639 – Centro<br>Cambé - PR, 86181-050</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icone">🕒</div>
+              <div>
+                <h3>Horário de atendimento</h3>
+                <p>Atendimento com hora marcada, de terça a sábado.</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icone">🦶</div>
+              <div>
+                <h3>Especialidades</h3>
+                <p>Unha encravada e inflamadas, micose, calos e calosidades, órtese/fibra, pé diabético e mais.</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icone">💬</div>
+              <div>
+                <h3>Contato</h3>
+                <p>Fale com a gente pelo WhatsApp para tirar dúvidas ou agendar sua avaliação.</p>
+              </div>
+            </div>
+            <a class="botao grande" href="https://wa.me/c/554399274561" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          </div>
+          <div class="mapa-wrap">
+            <iframe
+              src="https://www.google.com/maps?q=Rua+Espanha+639+Centro+Camb%C3%A9+PR+86181-050&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Mapa - Localização da Clínica PodoSaúde em Cambé, PR">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="secao clara">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <h2>Perguntas frequentes</h2>
+          <p class="subtitulo">Tire suas dúvidas antes de agendar sua avaliação.</p>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Preciso agendar com antecedência?</summary>
+            <p>Sim. O atendimento é feito com hora marcada para garantir mais atenção e qualidade durante a sua consulta. Agende pelo WhatsApp e combinamos o melhor horário para você.</p>
+          </details>
+          <details>
+            <summary>Onde fica a clínica?</summary>
+            <p>A Clínica PodoSaúde está localizada na Rua Espanha, 639 - Centro, Cambé - PR, 86181-050.</p>
+          </details>
+          <details>
+            <summary>Atendem pacientes com pé diabético?</summary>
+            <p>Sim, temos atenção especial para o cuidado do pé diabético, com orientação preventiva e cuidados adequados para reduzir riscos.</p>
+          </details>
+          <details>
+            <summary>Quais formas de pagamento são aceitas?</summary>
+            <p>As formas de pagamento são cartão de crédito/débito, dinheiro e PIX.</p>
+          </details>
+          <details>
+            <summary>Quanto tempo dura uma consulta?</summary>
+            <p>O tempo varia de acordo com o tipo de atendimento, mas em geral cada consulta dura entre 40 e 60 minutos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="secao">
       <div class="container contato">
         <div>
           <h2>Agende sua avaliação</h2>
@@ -64,15 +303,61 @@
           <p><strong>Localização:</strong> Cambé - PR</p>
           <p><strong>Atendimento:</strong> com horário marcado</p>
         </div>
-        <a class="botao grande" href="https://wa.me/5543999999999" target="_blank">Chamar no WhatsApp</a>
+        <a class="botao grande" href="https://wa.me/c/5543999274561" target="_blank" rel="noopener">Chamar no WhatsApp</a>
       </div>
     </section>
+
   </main>
 
+  <!-- RODAPÉ -->
   <footer>
     <div class="container">
-      <p>© Clínica PodoSaúde. Todos os direitos reservados.</p>
+      <div class="footer-grid">
+        <div>
+          <img src="logo-podosaude.png" alt="Logo Clínica PodoSaúde" class="footer-logo" />
+          <p>Cuidado profissional para a saúde dos seus pés, em Cambé - PR, com 10 anos de experiência.</p>
+        </div>
+        <div>
+          <h3>Navegação</h3>
+          <p><a href="#servicos">Serviços</a></p>
+          <p><a href="#sobre">Sobre</a></p>
+          <p><a href="#depoimentos">Depoimentos</a></p>
+          <p><a href="#localizacao">Localização</a></p>
+          <p><a href="#faq">Dúvidas frequentes</a></p>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <p>📍 Cambé - PR</p>
+          <p>💬 <a href="https://wa.me/c/5543999274561" target="_blank" rel="noopener">Agendar pelo WhatsApp</a></p>
+          <p>🕒 Atendimento com hora marcada</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="ano"></span> Clínica PodoSaúde. Todos os direitos reservados.</p>
+      </div>
     </div>
   </footer>
+
+  <!-- BOTÃO WHATSAPP FLUTUANTE -->
+  <a class="whatsapp-flutuante" href="https://wa.me/c/5543999274561" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    💬
+  </a>
+
+  <script>
+    // Ano dinâmico no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+
+    // Menu mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const menuNav = document.getElementById('menuNav');
+    menuToggle.addEventListener('click', () => {
+      menuNav.classList.toggle('aberto');
+    });
+    // Fecha o menu ao clicar em um link
+    menuNav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => menuNav.classList.remove('aberto'));
+    });
+  </script>
+
 </body>
 </html>
